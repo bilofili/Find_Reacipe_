@@ -5,7 +5,6 @@ import imagePng_B from './burger.png';
 import imagePng_S from './suppe.png';
 import imagePng_V from './vector.png';
 
-
 function App() {
 
   const [myRecipeSearch, setMyRecipeSearch] = useState("");
@@ -50,9 +49,9 @@ function App() {
         nameProps={element.recipe.label} ingredients={element.recipe.ingredientLines} />
       ))}
 
-      <img src={imagePng_V} className="image_png_v" alt='png' />
-      <img src={imagePng_B} className="image_png_b" alt='png' />
-      <img src={imagePng_S} className="image_png_s" alt='png' />
+      <img src={imagePng_V} className="image_png_v" alt='png1' />
+      <img src={imagePng_B} className="image_png_b" alt='png2' />
+      <img src={imagePng_S} className="image_png_s" alt='png3' />
     </div>
   );
 }
