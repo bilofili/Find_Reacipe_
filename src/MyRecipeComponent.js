@@ -9,7 +9,7 @@ function MyRecipeComponent({ caloriesProps, image, nameProps, ingredients}) {
 
             <ul>
                 {ingredients.map(ingredient => (
-                    <li><img src={check} className="icon"/>{ingredient}</li>
+                    <li><img src={check} className="icon" alt="icon"/>{ingredient}</li>
                 ))};
             </ul>
         </div>
